@@ -5,7 +5,7 @@
        <br> - Thành viên 1: Phạm Huy Vũ - 
        <br>- Thành viên 2: Trần Phương Nam -
 <br> **3. Tính năng phần mềm** 
-  <br> a, Tính năng: 
+  <br> Tính năng: 
   - Lấy dữ liệu nền đất từ người dùng
   - Lấy dữ liệu cọc
   - Tính toán sức chịu tải cọc, đài
