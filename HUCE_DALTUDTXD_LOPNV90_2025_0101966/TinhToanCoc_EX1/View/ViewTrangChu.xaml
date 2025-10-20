@@ -1,0 +1,527 @@
+﻿<Window x:Class="TinhToanCoc.View.ViewTrangChu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TinhToanCoc.View" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        mc:Ignorable="d"
+        Title="ViewTrangChu" Height="750" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--#region ToolBar-->
+        <ToolBar Grid.Row="1" VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnNew">
+                    <materialDesign:PackIcon Kind="InvoicePlus" />
+                </Button>
+                <Button x:Name="btnOpen">
+                    <materialDesign:PackIcon Kind="FolderOpen" />
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnSave">
+                    <materialDesign:PackIcon Kind="ContentSave" />
+                </Button>
+                <Button x:Name="btnSaveAs">
+                    <materialDesign:PackIcon Kind="ContentSaveAll" />
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnRun">
+                    <materialDesign:PackIcon Kind="ArrowRightDropCircle" />
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnXuatExcel">
+                    <materialDesign:PackIcon Kind="MicrosoftExcel" />
+                </Button>
+            </StackPanel>
+        </ToolBar>
+        <!--#endregion-->
+
+        <Menu Background="{StaticResource ChuDao3}" Height="35" >
+            <MenuItem Header="File" Foreground="White" VerticalAlignment="Center">
+                <MenuItem Margin="10 0 0 0" Header="Tạo mới file" Foreground="Black" Width="300"/>
+                <MenuItem Margin="10 0 0 0" BorderThickness="0 0 0 1" Header="Mở file" Foreground="Black" BorderBrush="Gray"/>
+                <MenuItem Margin="10 0 0 0" Header="Lưu file" Foreground="Black"/>
+                <MenuItem Margin="10 0 0 0" Header="Thoát" Foreground="Black"/>
+            </MenuItem>
+            <MenuItem Header="Công cụ" Foreground="White" VerticalAlignment="Center">
+                <!-- Các MenuItem con trong Công cụ -->
+                <MenuItem Height="20" Margin="10 0 0 0" Header="Mở thư mục chứa mẫu bảng tính" Foreground="Black"/>
+            </MenuItem>
+            <MenuItem Header="Tính toán" Foreground="White" VerticalAlignment="Center">
+                <!-- Các MenuItem con trong Tính toán -->
+                <MenuItem Margin="10 0 0 0" Header="Tính toán" Foreground="Black" Width="300"/>
+                <MenuItem Margin="10 0 0 0" Header="Thông kê kết quả tính toán" Foreground="Black"/>
+                <MenuItem Margin="10 0 0 0" Header="Tính toán SCT cọc chống" Foreground="Black"/>
+                <MenuItem Margin="10 0 0 0" Header="Thoát" Foreground="Black"/>
+            </MenuItem>
+            <MenuItem Header="Dữ liệu Địa chất" Foreground="White" VerticalAlignment="Center">
+                <MenuItem Header="Upload Dữ liệu địa chất" Foreground="Black"/>
+                <MenuItem Header="Tìm Kiếm Dữ liệu địa chất" Foreground="Black"/>
+            </MenuItem>
+            <MenuItem Header="Trợ giúp" Foreground="White" VerticalAlignment="Center">
+                <!-- Các MenuItem con trong Trợ giúp -->
+            </MenuItem>
+        </Menu>
+
+        <TabControl Grid.Row="1" Margin="0 30 0 0">
+
+            <!--#region Trụ địa chất-->
+            <TabItem Width="200" HorizontalAlignment="Left" Header="Khai báo các trụ địa chất">
+                <Grid Margin="10">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="600"/>
+
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" >
+                        <TextBlock Text="Thông Tin Trụ Địa Chất" FontSize="20" Margin="10" Grid.Row="1" />
+                        <StackPanel Orientation="Horizontal">
+                            <Border BorderThickness="1" Height="130" Width="200">
+                                <Grid>
+                                    <Image x:Name="SelectedImage1" Stretch="Uniform" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 1</TextBlock>
+                                </Grid>
+                            </Border>
+                            <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop1"></Label>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Border BorderThickness="1" Height="130" Width="200">
+                                <Grid>
+                                    <Image x:Name="SelectedImage2" Stretch="Uniform" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 2</TextBlock>
+                                </Grid>
+                            </Border>
+                            <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop2"></Label>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Border BorderThickness="1" Height="130" Width="200">
+                                <Grid>
+                                    <Image x:Name="SelectedImage3" Stretch="Uniform" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 3</TextBlock>
+                                </Grid>
+                            </Border>
+                            <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop3"></Label>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Border BorderThickness="1" Height="130" Width="200">
+                                <Grid>
+                                    <Image x:Name="SelectedImage4" Stretch="Uniform" />
+                                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 4</TextBlock>
+                                </Grid>
+                            </Border>
+                            <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop4"></Label>
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" Margin="10"  Width="350" HorizontalAlignment="Center">
+                        <TextBlock Text="Các chỉ tiêu cơ lý" Margin="10" FontSize="20" HorizontalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Label VerticalContentAlignment="Center" FontSize="15" Margin="0 0 10 0">Tên đất</Label>
+                            <ComboBox x:Name="cbbTenDat" Width="150" Margin="0,10"
+                                FontSize="15" HorizontalContentAlignment="Center">
+                                <ComboBoxItem Content="Sét" />
+                                <ComboBoxItem Content="Sét Pha" />
+                                <ComboBoxItem Content="Cát" />
+                                <ComboBoxItem Content="Cát Pha" />
+                            </ComboBox>
+
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <StackPanel  HorizontalAlignment="Center" Margin="0 20 30 0">
+                                <Label VerticalContentAlignment="Center" FontSize="15" Margin="0 0 10 0">Lớp đất</Label>
+                                <ComboBox x:Name="cbbLopDat" Width="100" Margin="0,10"
+                                        FontSize="15" HorizontalContentAlignment="Center">
+                                    <ComboBoxItem Content="1" />
+                                    <ComboBoxItem Content="2" />
+                                    <ComboBoxItem Content="3" />
+                                    <ComboBoxItem Content="4" />
+                                </ComboBox>
+                            </StackPanel>
+                            <StackPanel HorizontalAlignment="Center" Margin="0 20 0 0">
+                                <Label VerticalContentAlignment="Center" FontSize="15" Margin="0 0 10 0">Trạng thái</Label>
+                                <ComboBox x:Name="cbbTrangThai" Width="100" Margin="0,10"
+                                    FontSize="15" HorizontalContentAlignment="Center">
+                                    <ComboBoxItem Content="Sét mềm và bùn" />
+                                    <ComboBoxItem Content="Sét cứng trung bình" />
+                                    <ComboBoxItem Content="Sét cứng và rất cứng" />
+                                    <ComboBoxItem Content="Phù sa và cát chảy" />
+                                    <ComboBoxItem Content="Cát chặt trung bình" />
+                                    <ComboBoxItem Content="Cát chặt và rất chặt" />
+                                </ComboBox>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBox Margin="20 " FontSize="14"
+                                Width="100"
+                                materialDesign:HintAssist.Hint="N" x:Name="txt_TruDiaChat_N"
+                                Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                            <TextBox Margin="20 " FontSize="14"
+                                Width="100"
+                                materialDesign:HintAssist.Hint="Độ dày" x:Name="txt_TruDiaChat_DoDay"
+                                Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBox Margin="20 " FontSize="14" x:Name="txt_TruDiaChat_DoSet"
+                                Width="100"
+                                materialDesign:HintAssist.Hint="Độ Sệt"
+                                Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+
+                            <TextBox Margin="20 " FontSize="14"
+                                Width="100"
+                                materialDesign:HintAssist.Hint="qc" x:Name="txt_TruDiaChat_qc"
+                                Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
+
+                       
+
+                        <StackPanel Margin="0 20 0 0" Height="70" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <Button
+                            Width="200" Height="70"
+                            Content="Xác nhận"
+                            x:Name="btnXacNhan"
+                            IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource AncestorType={x:Type Window}, Mode=FindAncestor}}"
+                            Style="{StaticResource MaterialDesignOutlinedDarkButton}"
+                            Command="{Binding Add}"
+                            CommandParameter="{Binding ElementName=pgTruDiaChat}"
+                            Foreground="White"
+                            ToolTip="MaterialDesignOutlinedButton" Background="{StaticResource ChuDao}" Click="btnXacNhan_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <!--#endregion-->
+            <!--#region Khai báo cọc-->
+            <TabItem Width="200" HorizontalAlignment="Left" Header="Khai báo các loại cọc">
+                <StackPanel>
+                    <TextBlock Text="Khai Báo Các Loại Cọc" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" />
+
+                    <Label Content="Tên Cọc:" />
+                    <TextBox x:Name="txtCocName" Margin="0,0,0,10" />
+
+                    <Label Content="Chiều Dài (m):" />
+                    <TextBox x:Name="txtCocLength" Margin="0,0,0,10" />
+
+                    <Label Content="Đường Kính (cm):" />
+                    <TextBox x:Name="txtCocDiameter" Margin="0,0,0,10" />
+
+                    <Label Content="Loại Vật Liệu:" />
+                    <ComboBox x:Name="cbbMaterialType" Margin="0,0,0,10">
+                        <ComboBoxItem Content="Bê Tông" />
+                        <ComboBoxItem Content="Thép" />
+                        <ComboBoxItem Content="Khác" />
+                    </ComboBox>
+
+                    <Button Foreground="White" FontSize="15" Content="Lưu" Width="100" Background="{StaticResource ChuDao}" x:Name="btnLuu"/>
+                </StackPanel>
+            </TabItem>
+            <!--#endregion-->
+            <!--#region Tính toán cọc-->
+            <TabItem Width="200" HorizontalAlignment="Left" Header="Tính toán cọc">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="363*"/>
+                        <ColumnDefinition Width="73*"/>
+                        <ColumnDefinition Width="64*"/>
+                        <ColumnDefinition Width="500*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Margin="20 30 0 0" Grid.ColumnSpan="3">
+                        <TextBlock Text="Khai Báo Sức Chịu Tải của Cọc" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" />
+
+                        <Label Content="Đường kính thép cọc (d) :" />
+                        <TextBox x:Name="txtD" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+                        <Label Content="Rb:" />
+                        <TextBox x:Name="txtRb" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+                        <Label Content="Rs:" />
+                        <TextBox x:Name="txtRs" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+                        <Label Content="Loại Cọc:" />
+                        <ComboBox x:Name="cbbLoaiCoc" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+                        <Label Content="Cao trình đáy đài:" />
+                        <TextBox x:Name="txtCaoTrinhDayDai" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+                        <Button x:Name="btnTinhToanCoc" Foreground="White" FontSize="15" Content="Tính toán" Width="100" Background="{StaticResource ChuDao}" Margin="-200 50 0 0"/>
+                    </StackPanel>
+                    <StackPanel Margin="20 30 0 0" Grid.Column="3">
+
+                        <TextBlock Text="Kết Quả" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" />
+
+                        <StackPanel Orientation="Horizontal" Margin="0 20 0 0">
+                            <Label Content="Pgh theo vật liệu cọc:" />
+                            <Label x:Name="lblKQPghVatLieu" Margin="10,0,0,0" Width="300" HorizontalAlignment="Left"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Margin="0 20 0 0">
+                            <Label Content="Pgh Theo PP thống kê:" />
+                            <Label x:Name="lblPghPPTK" Margin="10,0,0,0" Width="300" HorizontalAlignment="Left"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Margin="0 20 0 0">
+                            <Label Content="Pgh Theo PP CPT:" />
+                            <Label x:Name="lblPghCPT" Margin="10,0,0,0" Width="300" HorizontalAlignment="Left"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Margin="0 20 0 0">
+                            <Label Content="Pgh Theo PP SPT:" />
+                            <Label x:Name="lblPghSPT" Margin="10,0,0,0" Width="300" HorizontalAlignment="Left"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+                <!--#endregion-->
+                <!--#region Tính toán đài cọc-->
+            </TabItem>
+            <TabItem Width="200" HorizontalAlignment="Left" Header="Tính toán đài cọc">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Header -->
+                    <Border Grid.Row="0" Background="#2E86AB" Padding="15">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="🔄" FontSize="20" Margin="0,0,10,0"/>
+                            <TextBlock Text="TÍNH TOÁN ĐÀI CỌC" 
+                          FontSize="18" 
+                          FontWeight="Bold" 
+                          Foreground="White"/>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Main Content -->
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                        <Grid Margin="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="0">
+
+                                <!-- Thông số đài cọc -->
+                                <GroupBox Header="📐 THÔNG SỐ ĐÀI CỌC" FontWeight="Bold">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Grid.Row="0" Grid.Column="0" Content="Chiều dài đài (m):"/>
+                                        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtChieuDaiDai" Text="2.0"/>
+                                        <Label Grid.Row="0" Grid.Column="2" Content="L"/>
+
+                                        <Label Grid.Row="1" Grid.Column="0" Content="Chiều rộng đài (m):"/>
+                                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtChieuRongDai" Text="1.5"/>
+                                        <Label Grid.Row="1" Grid.Column="2" Content="B"/>
+
+                                        <Label Grid.Row="2" Grid.Column="0" Content="Chiều cao đài (m):"/>
+                                        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtChieuCaoDai" Text="0.8"/>
+                                        <Label Grid.Row="2" Grid.Column="2" Content="H"/>
+
+                                        <Label Grid.Row="3" Grid.Column="0" Content="Số lượng cọc:"/>
+                                        <TextBox Grid.Row="3" Grid.Column="1" x:Name="txtSoLuongCoc" Text="4"/>
+                                    </Grid>
+                                </GroupBox>
+
+                                <!-- Thông số cọc -->
+                                <GroupBox Header="🏗️ THÔNG SỐ CỌC" FontWeight="Bold" Margin="0,10,0,0">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Grid.Row="0" Grid.Column="0" Content="Đường kính cọc (mm):"/>
+                                        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtDuongKinhCoc" Text="300"/>
+                                        <Label Grid.Row="0" Grid.Column="2" Content="D"/>
+
+                                        <Label Grid.Row="1" Grid.Column="0" Content="Chiều dài cọc (m):"/>
+                                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtChieuDaiCoc" Text="15"/>
+                                        <Label Grid.Row="1" Grid.Column="2" Content="Lc"/>
+
+                                        <Label Grid.Row="2" Grid.Column="0" Content="Khoảng cách cọc (m):"/>
+                                        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtKhoangCachCoc" Text="0.9"/>
+                                        <Label Grid.Row="2" Grid.Column="2" Content="S"/>
+
+                                        <Label Grid.Row="3" Grid.Column="0" Content="Sức chịu tải cọc (kN):"/>
+                                        <TextBox Grid.Row="3" Grid.Column="1" x:Name="txtSucChiuTaiCoc" Text="800"/>
+                                        <Label Grid.Row="3" Grid.Column="2" Content="Pc"/>
+                                    </Grid>
+                                </GroupBox>
+
+                                <!-- Tải trọng -->
+                                <GroupBox Header="📊 TẢI TRỌNG TÁC DỤNG" FontWeight="Bold" Margin="0,10,0,0">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Grid.Row="0" Grid.Column="0" Content="Tải trọng đứng (kN):"/>
+                                        <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtTaiTrongDoc" Text="2500"/>
+                                        <Label Grid.Row="0" Grid.Column="2" Content="N"/>
+
+                                        <Label Grid.Row="1" Grid.Column="0" Content="Moment X (kNm):"/>
+                                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtMomentX" Text="150"/>
+                                        <Label Grid.Row="1" Grid.Column="2" Content="Mx"/>
+
+                                        <Label Grid.Row="2" Grid.Column="0" Content="Moment Y (kNm):"/>
+                                        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtMomentY" Text="120"/>
+                                        <Label Grid.Row="2" Grid.Column="2" Content="My"/>
+
+                                        <Label Grid.Row="3" Grid.Column="0" Content="Lực cắt (kN):"/>
+                                        <TextBox Grid.Row="3" Grid.Column="1" x:Name="txtLucCat" Text="80"/>
+                                        <Label Grid.Row="3" Grid.Column="2" Content="Q"/>
+                                    </Grid>
+                                </GroupBox>
+
+                                <!-- Vật liệu -->
+                                <GroupBox Header="🏭 VẬT LIỆU" FontWeight="Bold" Margin="0,10,0,0">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Grid.Row="0" Grid.Column="0" Content="Bê tông mác:"/>
+                                        <ComboBox Grid.Row="0" Grid.Column="1" x:Name="cboMacBeTong" 
+                                     Margin="5" Height="25" SelectedIndex="2">
+                                            <ComboBoxItem Content="B20 (M250)"/>
+                                            <ComboBoxItem Content="B25 (M300)"/>
+                                            <ComboBoxItem Content="B30 (M400)"/>
+                                            <ComboBoxItem Content="B35 (M450)"/>
+                                        </ComboBox>
+
+                                        <Label Grid.Row="1" Grid.Column="0" Content="Cốt thép (MPa):"/>
+                                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtCuongDoThep" Text="365"/>
+                                        <Label Grid.Row="1" Grid.Column="2" Content="Rs"/>
+
+                                        <Label Grid.Row="2" Grid.Column="0" Content="Hệ số an toàn:"/>
+                                        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtHeSoAnToan" Text="1.15"/>
+                                        <Label Grid.Row="2" Grid.Column="2" Content="γ"/>
+                                    </Grid>
+                                </GroupBox>
+                            </StackPanel>
+                            <StackPanel Grid.Column="1" Margin="20,0,0,0">
+
+                                <!-- Kết quả tính toán -->
+                                <GroupBox Header="📈 KẾT QUẢ TÍNH TOÁN" FontWeight="Bold">
+                                    <StackPanel>
+                                        <Border Background="#F0F8FF" Padding="10" Margin="0,5">
+                                            <TextBlock x:Name="txtKetQuaChiuTai" 
+                                          Text="Sức chịu tải: Đang tính..."
+                                          FontWeight="SemiBold"/>
+                                        </Border>
+
+                                        <Border Background="#F0FFF0" Padding="10" Margin="0,5">
+                                            <TextBlock x:Name="txtKetQuaKiemTra" 
+                                          Text="Kiểm tra ổn định: Đang tính..."
+                                          FontWeight="SemiBold"/>
+                                        </Border>
+
+                                        <Border Background="#FFF8F0" Padding="10" Margin="0,5">
+                                            <TextBlock x:Name="txtThepYeuCau" 
+                                          Text="Thép yêu cầu: Đang tính..."
+                                          FontWeight="SemiBold"/>
+                                        </Border>
+
+                                        <Border Background="#F8F0FF" Padding="10" Margin="0,5">
+                                            <TextBlock x:Name="txtKienNghi" 
+                                          Text="Kiến nghị: Đang tính..."
+                                          FontWeight="SemiBold"
+                                          Foreground="#2E86AB"/>
+                                        </Border>
+                                    </StackPanel>
+                                </GroupBox>
+
+                                <!-- Sơ đồ bố trí cọc -->
+                                <GroupBox Header="📐 SƠ ĐỒ BỐ TRÍ CỌC" FontWeight="Bold" Margin="0,10,0,0">
+                                    <Border BorderBrush="LightGray" BorderThickness="1" 
+                               Background="White" Height="200">
+                                        <Canvas x:Name="canvasSoDoCoc" Background="White">
+                                            <!-- Sơ đồ sẽ được vẽ bằng code behind -->
+                                            <TextBlock Text="Sơ đồ bố trí cọc sẽ hiển thị ở đây" 
+                                          HorizontalAlignment="Center" 
+                                          VerticalAlignment="Center"
+                                          Foreground="Gray"/>
+                                        </Canvas>
+                                    </Border>
+                                </GroupBox>
+
+                                <!-- Biểu đồ nội lực -->
+                                <GroupBox Header="📊 BIỂU ĐỒ NỘI LỰC" FontWeight="Bold" Margin="0,10,0,0">
+                                    <Border BorderBrush="LightGray" BorderThickness="1" 
+                               Background="White" Height="150">
+                                        <Canvas x:Name="canvasBieuDo" Background="White">
+                                            <!-- Biểu đồ sẽ được vẽ bằng code behind -->
+                                            <TextBlock Text="Biểu đồ nội lực sẽ hiển thị ở đây" 
+                                          HorizontalAlignment="Center" 
+                                          VerticalAlignment="Center"
+                                          Foreground="Gray"/>
+                                        </Canvas>
+                                    </Border>
+                                </GroupBox>
+                            </StackPanel>
+                        </Grid>
+                    </ScrollViewer>
+
+                    <!-- Footer - Buttons -->
+                    <Border Grid.Row="2" Background="#F5F5F5" Padding="10">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button x:Name="btnTinhToan" Content="TÍNH TOÁN" 
+                       Background="#2E86AB" Foreground="White" 
+                       FontWeight="Bold"/>
+
+                            <Button x:Name="btnXoa" Content="XÓA DỮ LIỆU" 
+                       Background="#FF6B6B" Foreground="White" 
+                       FontWeight="Bold" Margin="20,0,0,0"/>
+
+                            <Button x:Name="btnXuatBaoCao" Content="XUẤT BÁO CÁO" 
+                       Background="#4ECDC4" Foreground="White" 
+                       FontWeight="Bold" Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="TinhToanCoc.Resources.UseControls.KhaiBaoLopDat"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TinhToanCoc.Resources.UseControls"
+             mc:Ignorable="d" Background="White"
+             d:DesignHeight="450" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" Width="320">
+    <Grid>
+        <StackPanel Grid.Column="1" Margin="10"  Width="350" HorizontalAlignment="Center">
+            <TextBlock Text="Các chỉ tiêu cơ lý" Margin="10" FontSize="20" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label VerticalContentAlignment="Center" FontSize="15" Margin="0 0 10 0">Tên đất</Label>
+                <ComboBox x:Name="ImageSelector" Width="150" Margin="0,10"
+                 FontSize="15" HorizontalContentAlignment="Center">
+                    <ComboBoxItem Content="Sét" />
+                    <ComboBoxItem Content="Sét Pha" />
+                    <ComboBoxItem Content="Cát" />
+                    <ComboBoxItem Content="Cát Pha" />
+                </ComboBox>
+
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox Margin="20 " FontSize="14"
+            Width="100"
+            materialDesign:HintAssist.Hint="Chiều Sâu" x:Name="txt_TruDiaChat_ChieuSau"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                <TextBox Margin="20 " FontSize="14"
+            Width="100"
+            materialDesign:HintAssist.Hint="e0" x:Name="txt_TruDiaChat_e0"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox Margin="20 " FontSize="14"
+            Width="100"
+            materialDesign:HintAssist.Hint="Gramma" x:Name="txt_TruDiaChat_Gramma"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                <TextBox Margin="20 " FontSize="14"
+            Width="100"
+            materialDesign:HintAssist.Hint="e200" x:Name="txt_TruDiaChat_e200"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox Margin="20 " FontSize="14" x:Name="txt_TruDiaChat_LucDinh"
+            Width="100"
+            materialDesign:HintAssist.Hint="Lực Dính"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+
+                <TextBox Margin="20 " FontSize="14"
+            Width="100"
+            materialDesign:HintAssist.Hint="e400" x:Name="txt_TruDiaChat_e400"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox Margin="20 " FontSize="14"
+            Width="100"
+            materialDesign:HintAssist.Hint="Góc Ma Sát" x:Name="txt_TruDiaChat_GocMaSat"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                <TextBox Margin="20 " FontSize="14"
+            Width="110"
+            materialDesign:HintAssist.Hint="Modul Biến Dạng" x:Name="txt_TruDiaChat_ModunBienDang"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+            </StackPanel>
+
+            <StackPanel Height="70" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
