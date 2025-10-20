@@ -1,8 +1,8 @@
 **1. Tên đề tài**: <br> Phần mềm tính toán móng cọc trong xây dựng
  <br> **2. Thành viên:**
        <br>  ** - Nhóm trưởng**: Nguyễn Văn Tùng - 66CNTH - 0101966 - 0888621706 - 0101966@st.huce.edu.vn
-       <br> - Thành viên 1: Phạm Huy Vũ - 
-       <br>- Thành viên 2: Trần Phương Nam -
+       <br> - Thành viên 1: Phạm Huy Vũ - 65TH2 - 229465 - huyvupham2002@gmail.com
+       <br>- Thành viên 2: Trần Phương Nam - 66CNTH - 0097766 - 0097766@st.huce.edu.vn
 <br> **3. Tính năng phần mềm** 
   <br> Tính năng: 
   - Lấy dữ liệu nền đất từ người dùng
