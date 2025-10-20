@@ -7,7 +7,7 @@
 <br> **3. Tính năng phần mềm** 
   <br> Tính năng: 
   - Lấy dữ liệu nền đất từ người dùng
-  - Lấy dữ liệu cọc
+  - Nhập dữ liệu cọc, vật liệu,...
   - Tính toán sức chịu tải cọc, đài
   - Lấy SCT từ kết quả
   - Thiết kế cọc và đài móng theo SCT đã kiểm tra
