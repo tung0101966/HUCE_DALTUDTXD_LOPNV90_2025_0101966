@@ -100,3 +100,15 @@ C:\Users\NGUYEN_NGOCTUNG\Downloads\TinhToanCoc\obj\Debug\TinhToanCoc.csproj.Core
 C:\Users\NGUYEN_NGOCTUNG\Downloads\TinhToanCoc\obj\Debug\TinhToan.2C9EB21B.Up2Date
 C:\Users\NGUYEN_NGOCTUNG\Downloads\TinhToanCoc\obj\Debug\TinhToanCoc.exe
 C:\Users\NGUYEN_NGOCTUNG\Downloads\TinhToanCoc\obj\Debug\TinhToanCoc.pdb
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.AssemblyReference.cache
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.SuggestedBindingRedirects.cache
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.exe.config
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\Color.baml
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\UseControls\KhaiBaoLopDat.g.cs
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewDangNhap.g.cs
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewTrangChu.g.cs
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\App.g.cs
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc_MarkupCompile.cache
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc_MarkupCompile.lref
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.exe
+D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.pdb

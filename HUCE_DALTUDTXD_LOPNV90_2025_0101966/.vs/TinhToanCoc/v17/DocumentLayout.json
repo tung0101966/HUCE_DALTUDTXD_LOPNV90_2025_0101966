@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\do an lap trinh\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|d:\\do an lap trinh\\huce_daltudtxd_lopnv90_2025_0101966\\huce_daltudtxd_lopnv90_2025_0101966\\view\\viewtrangchu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|solutionrelative:view\\viewtrangchu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|d:\\do an lap trinh\\huce_daltudtxd_lopnv90_2025_0101966\\huce_daltudtxd_lopnv90_2025_0101966\\resources\\styles\\color.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|solutionrelative:resources\\styles\\color.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|d:\\do an lap trinh\\huce_daltudtxd_lopnv90_2025_0101966\\huce_daltudtxd_lopnv90_2025_0101966\\view\\viewdangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|solutionrelative:view\\viewdangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|d:\\do an lap trinh\\huce_daltudtxd_lopnv90_2025_0101966\\huce_daltudtxd_lopnv90_2025_0101966\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Color.xaml",
+              "DocumentMoniker": "D:\\do an lap trinh\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\Resources\\Styles\\Color.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Color.xaml",
+              "ToolTip": "D:\\do an lap trinh\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\Resources\\Styles\\Color.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Color.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-23T07:18:52.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewTrangChu.xaml",
+              "DocumentMoniker": "D:\\do an lap trinh\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\View\\ViewTrangChu.xaml",
+              "RelativeDocumentMoniker": "View\\ViewTrangChu.xaml",
+              "ToolTip": "D:\\do an lap trinh\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\View\\ViewTrangChu.xaml",
+              "RelativeToolTip": "View\\ViewTrangChu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-23T07:13:39.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewDangNhap.xaml",
+              "DocumentMoniker": "D:\\do an lap trinh\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\View\\ViewDangNhap.xaml",
+              "RelativeDocumentMoniker": "View\\ViewDangNhap.xaml",
+              "ToolTip": "D:\\do an lap trinh\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\View\\ViewDangNhap.xaml",
+              "RelativeToolTip": "View\\ViewDangNhap.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-23T07:13:27.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\do an lap trinh\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "D:\\do an lap trinh\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-23T07:13:15.923Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

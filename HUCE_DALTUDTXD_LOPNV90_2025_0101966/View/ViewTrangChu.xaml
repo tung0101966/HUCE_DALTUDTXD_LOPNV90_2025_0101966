@@ -291,7 +291,7 @@
                     </Grid.RowDefinitions>
 
                     <!-- Header -->
-                    <Border Grid.Row="0" Background="#2E86AB" Padding="15">
+                    <Border Grid.Row="0" Background="{StaticResource ChuDao3}" Padding="15">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="🔄" FontSize="20" Margin="0,0,10,0"/>
                             <TextBlock Text="TÍNH TOÁN ĐÀI CỌC" 
@@ -504,7 +504,7 @@
                         </Grid>
                     </ScrollViewer>
 
-                    <!-- Footer - Buttons -->
+                    <!-- Nút bấm -->
                     <Border Grid.Row="2" Background="#F5F5F5" Padding="10">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                             <Button x:Name="btnTinhToan" Content="TÍNH TOÁN" 
