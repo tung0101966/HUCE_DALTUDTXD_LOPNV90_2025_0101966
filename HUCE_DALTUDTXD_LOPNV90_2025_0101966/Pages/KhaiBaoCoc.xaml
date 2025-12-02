@@ -1,0 +1,34 @@
+﻿<Page x:Class="TinhToanCoc.Pages.KhaiBaoCoc"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TinhToanCoc.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1000" Background="White"
+      Title="KhaiBaoCoc">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Khai Báo Các Loại Cọc" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" />
+
+            <Label Content="Tên Cọc:" />
+            <TextBox x:Name="txtCocName" Margin="0,0,0,10" />
+
+            <Label Content="Chiều Dài (m):" />
+            <TextBox x:Name="txtCocLength" Margin="0,0,0,10" />
+
+            <Label Content="Đường Kính (cm):" />
+            <TextBox x:Name="txtCocDiameter" Margin="0,0,0,10" />
+
+            <Label Content="Loại Vật Liệu:" />
+            <ComboBox x:Name="cbbMaterialType" Margin="0,0,0,10">
+                <ComboBoxItem Content="Bê Tông" />
+                <ComboBoxItem Content="Thép" />
+                <ComboBoxItem Content="Khác" />
+            </ComboBox>
+
+            <Button Foreground="White" FontSize="15" Content="Lưu" Width="100" Background="{StaticResource ChuDao}" x:Name="btnLuu"/>
+        </StackPanel>
+    </Grid>
+</Page>

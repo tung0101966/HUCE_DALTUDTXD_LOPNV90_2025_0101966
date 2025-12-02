@@ -1,0 +1,63 @@
+﻿<Page x:Class="TinhToanCoc.Pages.pageTinhToanCoc"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TinhToanCoc.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1000" Background="White"
+      Title="TinhToanCoc">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="363*"/>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="64*"/>
+            <ColumnDefinition Width="500*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="20 30 0 0" Grid.ColumnSpan="3">
+            <TextBlock Text="Khai Báo Sức Chịu Tải của Cọc" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" />
+
+            <Label Content="Đường kính thép cọc (d) :" />
+            <TextBox x:Name="txtD" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+            <Label Content="Rb:" />
+            <TextBox x:Name="txtRb" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+            <Label Content="Rs:" />
+            <TextBox x:Name="txtRs" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+            <Label Content="Loại Cọc:" />
+            <ComboBox x:Name="cbbLoaiCoc" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+            <Label Content="Cao trình đáy đài:" />
+            <TextBox x:Name="txtCaoTrinhDayDai" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
+
+            <Button x:Name="btnTinhToanCoc" Foreground="White" FontSize="15" Content="Tính toán" Width="100" Background="{StaticResource ChuDao}" Margin="-200 50 0 0"/>
+        </StackPanel>
+        <StackPanel Margin="20 30 0 0" Grid.Column="3">
+
+            <TextBlock Text="Kết Quả" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" />
+
+            <StackPanel Orientation="Horizontal" Margin="0 20 0 0">
+                <Label Content="Pgh theo vật liệu cọc:" />
+                <Label x:Name="lblKQPghVatLieu" Margin="10,0,0,0" Width="300" HorizontalAlignment="Left"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 20 0 0">
+                <Label Content="Pgh Theo PP thống kê:" />
+                <Label x:Name="lblPghPPTK" Margin="10,0,0,0" Width="300" HorizontalAlignment="Left"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 20 0 0">
+                <Label Content="Pgh Theo PP CPT:" />
+                <Label x:Name="lblPghCPT" Margin="10,0,0,0" Width="300" HorizontalAlignment="Left"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 20 0 0">
+                <Label Content="Pgh Theo PP SPT:" />
+                <Label x:Name="lblPghSPT" Margin="10,0,0,0" Width="300" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

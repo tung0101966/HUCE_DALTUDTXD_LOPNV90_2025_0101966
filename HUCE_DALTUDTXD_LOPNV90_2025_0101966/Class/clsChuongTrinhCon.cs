@@ -33,7 +33,7 @@ namespace TinhToanCoc.Class
             return ((sum + Fc * 3750) - Wc) / 1.6;
         }
 
-        public double PPXuyenTinhCPT(double Wc, double u, List<double> Li, List<Thongso> ThongSo, double Fc, List<double> qc) // thông số được lấy từ class bảng tra và nội suy
+        /*public double PPXuyenTinhCPT(double Wc, double u, List<double> Li, List<Thongso> ThongSo, double Fc, List<double> qc) // thông số được lấy từ class bảng tra và nội suy
         {
             double summation = 0;
             double Ri = 0;
@@ -56,7 +56,7 @@ namespace TinhToanCoc.Class
             double Pdn = summation + Fc * Ri;
             double Pgh = Pdn - Wc;
             return Pgh / 1.6;
-        }
+        }*/
 
         public double PPXuyenTieuChuanSPT(List<double> N, List<double> Li, List<double> To, double u, double Wc, double Fc, double daicoc)
         {

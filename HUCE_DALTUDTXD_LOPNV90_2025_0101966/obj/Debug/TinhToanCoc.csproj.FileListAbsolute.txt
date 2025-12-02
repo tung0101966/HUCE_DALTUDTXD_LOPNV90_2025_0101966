@@ -112,3 +112,93 @@ D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_20
 D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc_MarkupCompile.lref
 D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.exe
 D:\do an lap trinh\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.pdb
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.AssemblyReference.cache
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.exe.config
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\Color.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\ImageStyle.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\menuButton.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\menuItemButton.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\signInButton.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\signInButtonIcon.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\KhaiBaoCoc.g.cs
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\TinhToanDaiCoc.g.cs
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\TruDiaChat.g.cs
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\UseControls\KhaiBaoLopDat.g.cs
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewDangNhap.g.cs
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewTrangChu.g.cs
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\App.g.cs
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc_MarkupCompile.cache
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc_MarkupCompile.lref
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\TinhToanCoc.exe.config
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\TinhToanCoc.exe
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\TinhToanCoc.pdb
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignColors.dll
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\App.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\KhaiBaoCoc.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\TinhToanDaiCoc.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\TruDiaChat.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\UseControls\KhaiBaoLopDat.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewDangNhap.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewTrangChu.baml
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.g.resources
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.Properties.Resources.resources
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.GenerateResource.cache
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.CoreCompileInputs.cache
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToan.2C9EB21B.Up2Date
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.exe
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.pdb
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\pageTinhToanCoc.g.cs
+C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\pageTinhToanCoc.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\TinhToanCoc.exe.config
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\TinhToanCoc.exe
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\TinhToanCoc.pdb
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignColors.dll
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignColors.pdb
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.AssemblyReference.cache
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.SuggestedBindingRedirects.cache
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.exe.config
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\Color.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\ImageStyle.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\menuButton.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\menuItemButton.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\signInButton.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\Styles\signInButtonIcon.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\KhaiBaoCoc.g.cs
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\pageTinhToanCoc.g.cs
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\TinhToanDaiCoc.g.cs
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\TruDiaChat.g.cs
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\UseControls\KhaiBaoLopDat.g.cs
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewDangNhap.g.cs
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewTrangChu.g.cs
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\App.g.cs
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc_MarkupCompile.cache
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc_MarkupCompile.lref
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\App.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\KhaiBaoCoc.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\pageTinhToanCoc.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\TinhToanDaiCoc.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\TruDiaChat.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Resources\UseControls\KhaiBaoLopDat.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewDangNhap.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\View\ViewTrangChu.baml
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.g.resources
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.Properties.Resources.resources
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.GenerateResource.cache
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.csproj.CoreCompileInputs.cache
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToan.2C9EB21B.Up2Date
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.exe
+C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.pdb

@@ -73,6 +73,18 @@
     </ApplicationDefinition>
     <Compile Include="Class\clsChuongTrinhCon.cs" />
     <Compile Include="Class\clsCoc.cs" />
+    <Compile Include="Pages\KhaiBaoCoc.xaml.cs">
+      <DependentUpon>KhaiBaoCoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\pageTinhToanCoc.xaml.cs">
+      <DependentUpon>pageTinhToanCoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TinhToanDaiCoc.xaml.cs">
+      <DependentUpon>TinhToanDaiCoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TruDiaChat.xaml.cs">
+      <DependentUpon>TruDiaChat.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Resources\UseControls\KhaiBaoLopDat.xaml.cs">
       <DependentUpon>KhaiBaoLopDat.xaml</DependentUpon>
     </Compile>
@@ -86,9 +98,45 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\KhaiBaoCoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\pageTinhToanCoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\TinhToanDaiCoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\TruDiaChat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Resources\Styles\Color.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Styles\ImageStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Styles\menuButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Styles\menuItemButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Styles\signInButton.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Styles\signInButtonIcon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Resources\UseControls\KhaiBaoLopDat.xaml">
       <SubType>Designer</SubType>
@@ -133,8 +181,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
-    <Folder Include="NewFolder2\" />
-    <Folder Include="Pages\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
