@@ -157,6 +157,7 @@ C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Deb
 C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.pdb
 C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\pageTinhToanCoc.g.cs
 C:\Users\Tung\Desktop\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\Pages\pageTinhToanCoc.baml
+<<<<<<< Updated upstream
 C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\TinhToanCoc.exe.config
 C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\TinhToanCoc.exe
 C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\bin\Debug\TinhToanCoc.pdb
@@ -202,3 +203,5 @@ C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_
 C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToan.2C9EB21B.Up2Date
 C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.exe
 C:\Users\User104\Downloads\New folder (3)\New folder (3)\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\TinhToanCoc.pdb
+=======
+>>>>>>> Stashed changes
