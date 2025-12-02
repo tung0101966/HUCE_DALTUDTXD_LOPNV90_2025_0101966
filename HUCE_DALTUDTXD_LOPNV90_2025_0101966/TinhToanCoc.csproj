@@ -71,6 +71,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Class\BangTra_IV_1.cs" />
     <Compile Include="Class\clsChuongTrinhCon.cs" />
     <Compile Include="Class\clsCoc.cs" />
     <Compile Include="Resources\UseControls\KhaiBaoLopDat.xaml.cs">
