@@ -88,6 +88,12 @@
     <Compile Include="Resources\UseControls\KhaiBaoLopDat.xaml.cs">
       <DependentUpon>KhaiBaoLopDat.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\RelayCommad.cs" />
+    <Compile Include="ViewModels\VM_KhaiBaoCoc.cs" />
+    <Compile Include="ViewModels\VM_TinhToanCoc.cs" />
+    <Compile Include="ViewModels\VM_TinhToanDaiCoc.cs" />
+    <Compile Include="ViewModels\VM_TruDiaChat.cs" />
     <Compile Include="View\ViewDangNhap.xaml.cs">
       <DependentUpon>ViewDangNhap.xaml</DependentUpon>
     </Compile>
@@ -181,7 +187,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Icons\Menu.png" />
