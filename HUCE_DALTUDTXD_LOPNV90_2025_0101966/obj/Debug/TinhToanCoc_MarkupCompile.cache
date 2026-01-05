@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\DO AN LAP TRINH\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\
+D:\260105\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\obj\Debug\
 TinhToanCoc
 none
 false
 DEBUG;TRACE
-D:\DO AN LAP TRINH\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\App.xaml
+D:\260105\HUCE_DALTUDTXD_LOPNV90_2025_0101966\HUCE_DALTUDTXD_LOPNV90_2025_0101966\App.xaml
 13-1146172177
 
-131831833852
-171489883048
+14-541355323
+18-1012101337
 Pages\KhaiBaoCoc.xaml;Pages\pageTinhToanCoc.xaml;Pages\TinhToanDaiCoc.xaml;Pages\TruDiaChat.xaml;Resources\Styles\Color.xaml;Resources\Styles\ImageStyle.xaml;Resources\Styles\menuButton.xaml;Resources\Styles\menuItemButton.xaml;Resources\Styles\signInButton.xaml;Resources\Styles\signInButtonIcon.xaml;Resources\UseControls\KhaiBaoLopDat.xaml;View\ViewDangNhap.xaml;View\ViewTrangChu.xaml;
 
-False
+True
 
