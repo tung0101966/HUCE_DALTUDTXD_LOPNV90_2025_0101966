@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\ddd\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|d:\\ddd\\huce_daltudtxd_lopnv90_2025_0101966\\huce_daltudtxd_lopnv90_2025_0101966\\pages\\tinhtoandaicoc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|solutionrelative:pages\\tinhtoandaicoc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|d:\\ddd\\huce_daltudtxd_lopnv90_2025_0101966\\huce_daltudtxd_lopnv90_2025_0101966\\class\\clslopdat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|solutionrelative:class\\clslopdat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|d:\\ddd\\huce_daltudtxd_lopnv90_2025_0101966\\huce_daltudtxd_lopnv90_2025_0101966\\class\\clshosodat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1EF230C-54B2-4D25-A99C-F487F9768C2F}|TinhToanCoc.csproj|solutionrelative:class\\clshosodat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TinhToanDaiCoc.xaml.cs",
+              "DocumentMoniker": "D:\\ddd\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\Pages\\TinhToanDaiCoc.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\TinhToanDaiCoc.xaml.cs",
+              "ToolTip": "D:\\ddd\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\Pages\\TinhToanDaiCoc.xaml.cs",
+              "RelativeToolTip": "Pages\\TinhToanDaiCoc.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T10:24:14.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsLopDat.cs",
+              "DocumentMoniker": "D:\\ddd\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\Class\\clsLopDat.cs",
+              "RelativeDocumentMoniker": "Class\\clsLopDat.cs",
+              "ToolTip": "D:\\ddd\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\Class\\clsLopDat.cs",
+              "RelativeToolTip": "Class\\clsLopDat.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwFEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T10:23:35.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "clsHoSoDat.cs",
               "DocumentMoniker": "D:\\ddd\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\HUCE_DALTUDTXD_LOPNV90_2025_0101966\\Class\\clsHoSoDat.cs",
               "RelativeDocumentMoniker": "Class\\clsHoSoDat.cs",
