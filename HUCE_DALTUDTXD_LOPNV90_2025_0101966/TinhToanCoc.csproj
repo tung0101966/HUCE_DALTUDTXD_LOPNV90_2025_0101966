@@ -74,8 +74,13 @@
     <Compile Include="Class\clsChuongTrinhCon.cs" />
     <Compile Include="Class\clsCoc.cs" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
     <Compile Include="Class\clsHoSoDat.cs" />
+=======
+    <Compile Include="Class\clsHoSoDat.cs" />
+    <Compile Include="Class\clsLopDat.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Pages\KhaiBaoCoc.xaml.cs">
       <DependentUpon>KhaiBaoCoc.xaml</DependentUpon>
     </Compile>
