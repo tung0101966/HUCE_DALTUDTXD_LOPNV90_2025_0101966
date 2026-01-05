@@ -76,6 +76,7 @@
     <Compile Include="Class\clsBienToanCuc.cs" />
     <Compile Include="Class\clsChuongTrinhCon.cs" />
     <Compile Include="Class\clsCoc.cs" />
+    <Compile Include="Class\clsHoSoDat.cs" />
     <Compile Include="Pages\KhaiBaoCoc.xaml.cs">
       <DependentUpon>KhaiBaoCoc.xaml</DependentUpon>
     </Compile>
