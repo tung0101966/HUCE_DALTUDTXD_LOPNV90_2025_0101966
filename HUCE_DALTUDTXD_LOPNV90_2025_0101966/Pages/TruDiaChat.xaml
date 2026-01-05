@@ -4,57 +4,57 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TinhToanCoc.Pages" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-      mc:Ignorable="d" 
+      mc:Ignorable="d" x:Name="ViewTruDiaChat"
       d:DesignHeight="700" d:DesignWidth="1000" Background="White"
       Title="TruDiaChat">
 
     <Grid>
 
 
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="600"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="600"/>
 
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <StackPanel Orientation="Vertical" HorizontalAlignment="Left" >
-                    <TextBlock Text="Thông Tin Trụ Địa Chất" FontSize="20" Margin="10" Grid.Row="1" />
-                    <StackPanel Orientation="Horizontal">
-                        <Border BorderThickness="1" Height="130" Width="200">
-                            <Grid>
-                                <Image x:Name="SelectedImage1" Stretch="Uniform" />
-                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 1</TextBlock>
-                            </Grid>
-                        </Border>
-                        <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop1"></Label>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Border BorderThickness="1" Height="130" Width="200">
-                            <Grid>
-                                <Image x:Name="SelectedImage2" Stretch="Uniform" />
-                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 2</TextBlock>
-                            </Grid>
-                        </Border>
-                        <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop2"></Label>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Border BorderThickness="1" Height="130" Width="200">
-                            <Grid>
-                                <Image x:Name="SelectedImage3" Stretch="Uniform" />
-                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 3</TextBlock>
-                            </Grid>
-                        </Border>
-                        <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop3"></Label>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <Border BorderThickness="1" Height="130" Width="200">
-                            <Grid>
-                                <Image x:Name="SelectedImage4" Stretch="Uniform" />
-                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 4</TextBlock>
-                            </Grid>
-                        </Border>
-                        <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop4"></Label>
-                    </StackPanel>
-                </StackPanel>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" >
+            <TextBlock Text="Thông Tin Trụ Địa Chất" FontSize="20" Margin="10" Grid.Row="1" />
+            <StackPanel Orientation="Horizontal">
+                <Border BorderThickness="1" Height="130" Width="200">
+                    <Grid>
+                        <Image x:Name="SelectedImage1" Stretch="Uniform" />
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 1</TextBlock>
+                    </Grid>
+                </Border>
+                <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop1"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Border BorderThickness="1" Height="130" Width="200">
+                    <Grid>
+                        <Image x:Name="SelectedImage2" Stretch="Uniform" />
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 2</TextBlock>
+                    </Grid>
+                </Border>
+                <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop2"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Border BorderThickness="1" Height="130" Width="200">
+                    <Grid>
+                        <Image x:Name="SelectedImage3" Stretch="Uniform" />
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 3</TextBlock>
+                    </Grid>
+                </Border>
+                <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop3"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Border BorderThickness="1" Height="130" Width="200">
+                    <Grid>
+                        <Image x:Name="SelectedImage4" Stretch="Uniform" />
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" FontSize="20">Lớp 4</TextBlock>
+                    </Grid>
+                </Border>
+                <Label Margin="20 0 0 0" FontSize="15" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" x:Name="lblThongTinLop4"></Label>
+            </StackPanel>
+        </StackPanel>
 
         <StackPanel Grid.Column="1" Margin="10"  Width="350" HorizontalAlignment="Center">
             <TextBlock Text="Các chỉ tiêu cơ lý" Margin="10" FontSize="20" HorizontalAlignment="Center"/>
@@ -125,10 +125,10 @@
                 x:Name="btnXacNhan"
                 IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource AncestorType={x:Type Window}, Mode=FindAncestor}}"
                 Style="{StaticResource MaterialDesignOutlinedDarkButton}"
-                Command="{Binding Add}"
-                CommandParameter="{Binding ElementName=pgTruDiaChat}"
+                Command="{Binding XacNhan}"
+                CommandParameter="{Binding ElementName=ViewTruDiaChat}"
                 Foreground="White"
-                ToolTip="MaterialDesignOutlinedButton" Background="{StaticResource ChuDao}" Click="btnXacNhan_Click"/>
+                ToolTip="MaterialDesignOutlinedButton" Background="{StaticResource ChuDao}" />
             </StackPanel>
         </StackPanel>
     </Grid>

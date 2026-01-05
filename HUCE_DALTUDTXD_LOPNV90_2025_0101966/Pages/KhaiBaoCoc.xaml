@@ -4,7 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TinhToanCoc.Pages"
-      mc:Ignorable="d" 
+      mc:Ignorable="d" x:Name="ViewKhaiBaoCoc"
       d:DesignHeight="700" d:DesignWidth="1000" Background="White"
       Title="KhaiBaoCoc">
 
@@ -28,7 +28,9 @@
                 <ComboBoxItem Content="Khác" />
             </ComboBox>
 
-            <Button Foreground="White" FontSize="15" Content="Lưu" Width="100" Background="{StaticResource ChuDao}" x:Name="btnLuu"/>
+            <Button Foreground="White" FontSize="15" Content="Lưu" Width="100" Background="{StaticResource ChuDao}" x:Name="btnLuu" 
+                    Command="{Binding luucoc}"
+                    CommandParameter="{Binding ElementName=ViewKhaiBaoCoc}"/>
         </StackPanel>
     </Grid>
 </Page>

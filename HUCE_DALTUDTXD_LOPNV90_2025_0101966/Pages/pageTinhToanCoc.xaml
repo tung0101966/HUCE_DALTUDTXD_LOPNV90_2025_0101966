@@ -4,7 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TinhToanCoc.Pages"
-      mc:Ignorable="d" 
+      mc:Ignorable="d" x:Name="ViewTTCoc"
       d:DesignHeight="700" d:DesignWidth="1000" Background="White"
       Title="TinhToanCoc">
 
@@ -33,7 +33,9 @@
             <Label Content="Cao trình đáy đài:" />
             <TextBox x:Name="txtCaoTrinhDayDai" Margin="0,0,0,10" Width="300" HorizontalAlignment="Left"/>
 
-            <Button x:Name="btnTinhToanCoc" Foreground="White" FontSize="15" Content="Tính toán" Width="100" Background="{StaticResource ChuDao}" Margin="-200 50 0 0"/>
+            <Button x:Name="btnTinhToanCoc" Foreground="White" FontSize="15" Content="Tính toán" Width="100" Background="{StaticResource ChuDao}" Margin="-200 50 0 0"
+                    Command="{Binding TTCOC}"
+CommandParameter="{Binding ElementName=ViewTTCoc}"/>
         </StackPanel>
         <StackPanel Margin="20 30 0 0" Grid.Column="3">
 
