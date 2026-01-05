@@ -72,6 +72,26 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Class\clsChuongTrinhCon.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Class\clsCoc.cs" />
+    <Compile Include="Class\clsHoSoDat.cs" />
+    <Compile Include="Class\clsLopDat.cs" />
+    <Compile Include="Class\clsTaiTrong.cs" />
+    <Compile Include="Class\clsTinhToan.cs" />
+    <Compile Include="Pages\KhaiBaoCoc.xaml.cs">
+      <DependentUpon>KhaiBaoCoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\pageTinhToanCoc.xaml.cs">
+      <DependentUpon>pageTinhToanCoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TinhToanDaiCoc.xaml.cs">
+      <DependentUpon>TinhToanDaiCoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TruDiaChat.xaml.cs">
+      <DependentUpon>TruDiaChat.xaml</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="Resources\UseControls\KhaiBaoLopDat.xaml.cs">
       <DependentUpon>KhaiBaoLopDat.xaml</DependentUpon>
     </Compile>
