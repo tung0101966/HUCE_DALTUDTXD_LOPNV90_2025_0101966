@@ -39,8 +39,8 @@ namespace TinhToanCoc.Class
 
         public clsCoc()
         {
-            _chieuDai = 0.0;
-            _duongKinh = 0.0;
+            _chieuDai=0.0;
+            _duongKinh=0.0;
             _vatLieu = "";
             _name = "";
         }

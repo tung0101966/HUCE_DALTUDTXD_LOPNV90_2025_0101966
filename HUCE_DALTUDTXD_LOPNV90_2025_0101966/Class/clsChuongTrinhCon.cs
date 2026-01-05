@@ -8,15 +8,15 @@ namespace TinhToanCoc.Class
 {
     public class clsChuongTrinhCon
     {
-        public double TinhPvl(double m, double hesoUonDoc, double Rb, double Ab, double Rs, double As)
+        public double TinhPvl(double m,double hesoUonDoc, double Rb, double Ab, double Rs, double As)
         {
-            return (m * hesoUonDoc * (Rb * Ab + Rs * As)) / 1.6;
+            return (m * hesoUonDoc * (Rb * Ab + Rs * As))/1.6;
         }
 
-        public double PhuongPhapThongKe(double Wc, double u, List<double> TI, List<List<double>> LI, double Fc)
+        public double PhuongPhapThongKe( double Wc, double u, List<double> TI, List<List<double>> LI, double Fc)
         {
             List<double> Li = new List<double>();
-
+           
             foreach (List<double> li in LI)
             {
                 foreach (double giatri in li)
@@ -30,10 +30,10 @@ namespace TinhToanCoc.Class
                 sum += u * TI[i] * Li[i];
             }
             double Pdn = sum + Fc * 3750;
-            return ((sum + Fc * 3750) - Wc) / 1.6;
+            return ((sum + Fc * 3750) - Wc)/1.6;
         }
 
-        /*public double PPXuyenTinhCPT(double Wc, double u, List<double> Li, List<Thongso> ThongSo, double Fc, List<double> qc) // thông số được lấy từ class bảng tra và nội suy
+        public double PPXuyenTinhCPT(double Wc, double u, List<double> Li, List<ThongSo> ThongSo, double Fc,List<double> qc)
         {
             double summation = 0;
             double Ri = 0;
@@ -50,15 +50,15 @@ namespace TinhToanCoc.Class
                 }
                 if (i == ThongSo.Count - 1)
                 {
-                    Ri = ThongSo[i].KiCocDong * qc[i];
+                    Ri = ThongSo[i].KiCocDong*qc[i];
                 }
             }
             double Pdn = summation + Fc * Ri;
             double Pgh = Pdn - Wc;
-            return Pgh / 1.6;
-        }*/
+            return Pgh/1.6;
+        }
 
-        public double PPXuyenTieuChuanSPT(List<double> N, List<double> Li, List<double> To, double u, double Wc, double Fc, double daicoc)
+        public double PPXuyenTieuChuanSPT(List<double> N , List<double> Li,List<double> To,double u,double Wc,double Fc,double daicoc)
         {
             double sum = 0;
             double Ri = 0;
@@ -67,12 +67,12 @@ namespace TinhToanCoc.Class
                 sum += u * Li[i] * To[i];
                 if (i == N.Count - 1)
                 {
-                    Ri = 400 * N[i];
+                    Ri = 400*N[i];
                 }
             }
-            double Pdn = sum + Fc * Ri / (daicoc - 0.5);
+            double Pdn = sum  + Fc * Ri/(daicoc - 0.5);
             double Pgh = Pdn - Wc;
-            return Pgh / 1.6;
+            return Pgh/1.6;
         }
     }
 }
