@@ -6,6 +6,18 @@ using System.Threading.Tasks;
 
 namespace TinhToanCoc.Class
 {
+    internal class clsBangTraIV3_HeSo_Ki_va_Alpha
+    {
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TinhToanCoc.Class
+{
     public class clsBangTraIV3_HeSo_Ki_va_Alpha
     {
         public string LoaiDat { get; set; } // Loại đất
@@ -39,7 +51,7 @@ namespace TinhToanCoc.Class
         public double AlphaDong { get; set; } // Hệ số Alpha cho cọc đóng
         public int ToMaxDong { get; set; } // Giá trị cực đại của To cho cọc đóng
 
-        public ThongSo(double ki,double alpha,int tomax) 
+        public ThongSo(double ki, double alpha, int tomax)
         {
             KiCocDong = ki;
             AlphaDong = alpha;
