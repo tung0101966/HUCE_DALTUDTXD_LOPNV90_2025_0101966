@@ -79,6 +79,7 @@
     <Compile Include="Class\clsHoSoDat.cs" />
     <Compile Include="Class\clsLopDat.cs" />
     <Compile Include="Class\clsTaiTrong.cs" />
+    <Compile Include="Class\clsTinhToan.cs" />
     <Compile Include="Pages\KhaiBaoCoc.xaml.cs">
       <DependentUpon>KhaiBaoCoc.xaml</DependentUpon>
     </Compile>
