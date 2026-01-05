@@ -71,7 +71,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< Updated upstream
     <Compile Include="Class\BangTra_IV_1.cs" />
+=======
+    <Compile Include="Class\clsBangTra_IV_1.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Class\clsChuongTrinhCon.cs" />
     <Compile Include="Class\clsCoc.cs" />
     <Compile Include="Resources\UseControls\KhaiBaoLopDat.xaml.cs">
